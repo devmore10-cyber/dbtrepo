@@ -1,0 +1,1 @@
+select * from SBI_DB.SBI_SCHEMA.T_NATION
