@@ -1,11 +1,13 @@
       sources:
   - name: s1
     database: SBI_DB
-    schema: DBT_SCHEMA
+    schema: SBI_SCHEMA
 
     tables:
       - name: t_nation
-      - name: t_customer
+      - name: t_customers
       - name: customer
       - name: orders
       - name: products
+      - name: emp
+      - name: cust_info
