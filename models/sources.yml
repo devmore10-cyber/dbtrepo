@@ -1,4 +1,6 @@
-      sources:
+version: 2
+
+sources:
   - name: s1
     database: SBI_DB
     schema: SBI_SCHEMA
@@ -11,3 +13,5 @@
       - name: products
       - name: emp
       - name: cust_info
+      - name: t_ticket
+      - name: m_ticket_status
