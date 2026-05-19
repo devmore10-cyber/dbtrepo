@@ -1,4 +1,4 @@
-{% snapshot snapshot_name %}
+{% snapshot snap_ticket_status %}
 
 {{
     config(
