@@ -1,4 +1,4 @@
-version: 2
+version: 2   # ← change this from 1 to 2
 
 sources:
   - name: s1
