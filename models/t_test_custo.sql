@@ -1,0 +1,1 @@
+select * from {{ source('s1', 'CUSTOMERS_new') }}

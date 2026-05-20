@@ -15,3 +15,5 @@ sources:
       - name: cust_info
       - name: t_ticket
       - name: m_ticket_status
+      - name: CUSTOMERS_new
+      - name: t_test_custo
