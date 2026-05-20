@@ -3,7 +3,7 @@ version: 2   # ← change this from 1 to 2
 sources:
   - name: s1
     database: SBI_DB
-    schema: SBI_SCHEMA
+    schema: DBT_SCHEMA
 
     tables:
       - name: t_nation
@@ -15,5 +15,5 @@ sources:
       - name: cust_info
       - name: t_ticket
       - name: m_ticket_status
-      - name: CUSTOMERS_new
-      - name: t_test_custo
+      - name: CUSTOMERS_NEW
+      - name: T_TEST_CUSTO

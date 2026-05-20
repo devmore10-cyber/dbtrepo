@@ -1,4 +1,4 @@
-{% snapshot snap_test_custno_check %}
+{% snapshot snap_test_chek %}
 
 {{
     config(
@@ -12,6 +12,6 @@
 }}
 
 SELECT *
-FROM {{ source('s1', 't_test_custo') }}
+FROM {{ source('s1', 'T_TEST_CUSTO') }}
 
 {% endsnapshot %}
