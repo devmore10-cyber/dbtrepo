@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_customers_testing
+
+    columns:
+      - name: C_CUSTOMER_ID
+
+        tests:
+          - unique
+          - not_null
+
+      - name: C_EMAIL_ADDRESS
+
+        tests:
+          - not_null
