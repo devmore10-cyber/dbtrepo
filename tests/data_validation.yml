@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: t_customer_testing
+
+    columns:
+      - name: C_CUSTOMER_ID
+
+        tests:
+          - unique
+          - not_null
+
+      

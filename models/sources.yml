@@ -18,3 +18,5 @@ sources:
       - name: CUSTOMERS_NEW
       - name: T_TEST_CUSTO
       - name: t_customer_testing
+      - name: t_customers
+      
