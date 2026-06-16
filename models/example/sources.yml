@@ -1,0 +1,11 @@
+sources:
+  - name: s1
+    database: SBI_DB
+    schema : DBT_SCHEMA
+    tables:
+      - name: t_nation
+      - name: t_customer
+      - name: CUSTOMER
+      - name: orders
+      - name: payment
+      - name: t_ticket
