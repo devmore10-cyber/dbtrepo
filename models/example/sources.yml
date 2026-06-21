@@ -1,7 +1,7 @@
 sources:
   - name: s1
     database: SBI_DB
-    schema : DBT_SCHEMA
+    schema : SBI_SCHEMA
     tables:
       - name: t_nation
       - name: t_customer
