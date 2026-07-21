@@ -1,1 +1,2 @@
-select * from {{ source('s1', 'CUSTOMER') }}
+SELECT *
+FROM {{ source('s1', 'TB_CUSTOMER') }}
