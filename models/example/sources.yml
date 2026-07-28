@@ -7,6 +7,6 @@ sources:
       - name: t_customer
       - name: TB_CUSTOMER
       - name: orders
-      - name: payment
+      - name: CUSTOMER_DEV
       - name: t_ticket
       - name: RAW_TRANSACTIONS
