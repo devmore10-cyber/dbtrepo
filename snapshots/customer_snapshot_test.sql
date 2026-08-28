@@ -8,11 +8,11 @@
             updated_at='UPDATED_DATE'
         )
     }}
+
 SELECT
     C_CUSTOMER_SK,
     C_CUSTOMER_ID,
     C_EMAIL_ADDRESS,
     UPDATED_DATE
-
-    select * from {{ source('s1', 'TB_CUSTOMER') }}
+ from {{ source('s1', 'TB_CUSTOMER') }}
  {% endsnapshot %}
