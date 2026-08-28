@@ -5,7 +5,8 @@ sources:
     tables:
       - name: t_nation
       - name: t_customer
-      - name: CUSTOMER
-      - name: orders
-      - name: payment
+      - name: TB_CUSTOMER
+      - name: DIM_CUSTOMER_HISTORY
+      - name: CUSTOMER_DEV
       - name: t_ticket
+      - name: RAW_TRANSACTIONS

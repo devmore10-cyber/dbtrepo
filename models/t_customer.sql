@@ -1,1 +1,0 @@
-select * from {{ source('s1', 'CUSTOMER') }}
