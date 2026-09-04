@@ -40,3 +40,6 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+      
+    +post-hook:
+      - "INSERT INTO AML_AUDIT_LOG VALUES ('MODEL_COMPLETED', CURRENT_TIMESTAMP(), 'SUCCESS')"
